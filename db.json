@@ -1,0 +1,56 @@
+{
+  "questionnaire": [{
+    "id": 1,
+    "title": "Responda estas preguntas acerca de React",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tristique lacus. Duis sed imperdiet lacus. Nullam vestibulum velit sed mi convallis rhoncus. ",
+    "questions": [{
+      "title": "¿El método setState() es asíncrono?",
+      "type": "SingleChoice",
+      "option": ["si", "no"],
+      "right-option": [1],
+      "max-tries": 2,
+      "response": null
+    },
+      {
+        "title": "¿Qué es el DOM virtual?",
+        "type": "MultipleChoice",
+        "option": ["un patrón de React basado en abstraer el DOM del navegador",
+          "copia virtual representa la UI", "DOM no visible"
+        ],
+        "right-option": [1, 2],
+        "max-tries": 2,
+        "response": null
+      }
+    ]
+
+  },
+    {
+      "id": 2,
+      "title": "Responda estas preguntas acerca de Javascript",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et tristique lacus. Duis sed imperdiet lacus. Nullam vestibulum velit sed mi convallis rhoncus. ",
+      "questions": [{
+        "title": "¿Que es el método .replaceAll()?",
+        "type": "SingleChoice",
+        "option": [
+          "reemplaza todas las ocurrencias de una cadena por otra cadena",
+          "un comportamiento similar a del actual .replace() con la salvedad de que alcanza por defecto a todas las coincidencias, en vez de limitarse a la primera"
+        ],
+        "right-option": [1],
+        "max-tries": 2,
+        "response": null
+      },
+        {
+          "title": "¿Qué es el Prototype?",
+          "type": "MultipleChoice",
+          "option": ["un patrón de React basado en abstraer el DOM del navegador",
+            "copia virtual representa la UI", "DOM no visible"
+          ],
+          "right-option": [1, 2],
+          "max-tries": 2,
+          "response": null
+        }
+      ]
+
+    }
+  ]
+}
